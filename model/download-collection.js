@@ -4,12 +4,15 @@ var Backbone = require('backbone');
 
 var DownloadModel = require('./download-model');
 
-var backendUrl;
-
 module.exports = Backbone.Collection.extend({
-  model: DownloadModel,
-  url: backendUrl + '/api/downloads',
   initialize: function(models, options) {
-    backendUrl = options.backendUrl;
-  }
+    this.backendUrl = options[0].backendUrl;
+  },
+  url: function() {
+    return this.backendUrl + '/api/downloads';
+  },
+  backendUrl: function() {
+    return this.backendUrl;
+  },
+  model: DownloadModel
 });
