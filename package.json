@@ -1,0 +1,10 @@
+{
+  "name": "talk-webclient-js-model",
+  "description": "Model classes for webclient",
+  "version": "0.1.0",
+  "repository": "git@github.com:hoccer/talk-webclient-js-model.git",
+  "dependencies": {
+    "backbone": "^1.1.2",
+    "underscore": "^1.6.0"
+  }
+}
