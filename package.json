@@ -1,6 +1,6 @@
 {
   "name": "talk-webclient-js-model",
-  "description": "Model classes for webclient",
+  "description": "Model and connection classes for webclient",
   "version": "0.1.0",
   "repository": "git@github.com:hoccer/talk-webclient-js-model.git",
   "dependencies": {
