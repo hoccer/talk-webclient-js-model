@@ -6,6 +6,6 @@ module.exports = {
     DownloadModel: require('./model/download-model')
   },
   WebSocket: {
-    CollectionUpdater: require('./websocket/collection-updater')
+    Observer: require('./websocket/observer')
   }
 };
