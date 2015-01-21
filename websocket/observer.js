@@ -36,7 +36,7 @@ WebSocketObserver.prototype._scheduleReconnect = function() {
 WebSocketObserver.prototype.subscribe = function(path, callback) {
   this._subscriptions[path] = _.union(
     this._subscriptions[path] || [],
-    callback
+    [callback]
   );
 
   this._doSubscribe(path);

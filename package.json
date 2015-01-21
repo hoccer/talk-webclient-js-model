@@ -5,6 +5,6 @@
   "repository": "git@github.com:hoccer/talk-webclient-js-model.git",
   "dependencies": {
     "backbone": "^1.1.2",
-    "underscore": "^1.6.0"
+    "underscore": "^1.7.0"
   }
 }
