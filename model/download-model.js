@@ -6,6 +6,6 @@ module.exports = Backbone.Model.extend({
   idAttribute: 'clientDownloadId',
 
   fileUrl: function() {
-    return this.collection.backendUrl + '/' + this.get('dataFile');
+    return this.collection.backendUrl + '/' + this.get('filePath');
   }
 });
